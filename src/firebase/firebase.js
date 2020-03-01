@@ -13,6 +13,31 @@ const config = {
     measurementId: "G-JHFR05TJSN"
 };
 
+//allow us to take google object when user log's in with google
+//async action because we are making API request
+export const createUser = async (userAuth, additionalData) => {
+    if(!userAuth) return;
+
+    const userRef = firestore.doc(`users/${userAuth.uid}`);
+
+    const snapShop = await userRef.get();
+
+    if(!snapShop.exists) {
+        const {displayName, email} = userAuth;
+        const createdAt = new Date();
+
+        try {
+            await userRef.set({
+                displayName, email, createdAt, ...additionalData
+            })
+        }catch (error) {
+            console.log('error msg', error)
+        }
+    }
+
+    return userRef;
+};
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();

@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b759f59c-736a-4975-8daf-c181b6ad72d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input/form-input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login-register/login-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login-register/login-register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login-register/login-register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login-register/login-register.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,9 @@
       <workItem from="1582473029535" duration="28000" />
       <workItem from="1582473119372" duration="5287000" />
       <workItem from="1582478691976" duration="3740000" />
-      <workItem from="1582542467319" duration="4226000" />
+      <workItem from="1582542467319" duration="4902000" />
+      <workItem from="1582992560324" duration="4467000" />
+      <workItem from="1583060650928" duration="2461000" />
     </task>
     <servers />
   </component>
@@ -77,9 +84,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="796" y="226" width="384" height="652" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582474084234" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582547968506">
+    <state x="641" y="263" width="704" height="578" key="find.popup" timestamp="1583061487970">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582547968506" />
+    <state x="641" y="263" width="704" height="578" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583061487970" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1583063922298">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583063922298" />
   </component>
 </project>
